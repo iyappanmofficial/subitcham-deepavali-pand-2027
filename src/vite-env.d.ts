@@ -1,0 +1,16 @@
+/// <reference types="vite/client" />
+
+interface ImportMetaEnv {
+  readonly VITE_SUPABASE_URL?: string;
+  readonly VITE_SUPABASE_ANON_KEY?: string;
+  readonly VITE_APP_NAME?: string;
+  readonly VITE_MONTHLY_CONTRIBUTION?: string;
+  readonly VITE_LATE_PENALTY?: string;
+  readonly VITE_SCHEME_DURATION_MONTHS?: string;
+  readonly VITE_PAYMENT_DEADLINE_DAY?: string;
+  readonly VITE_TIMEZONE?: string;
+}
+
+interface ImportMeta {
+  readonly env: ImportMetaEnv;
+}
