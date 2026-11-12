@@ -280,3 +280,4 @@ export const BusinessSettingsPage: React.FC = () => {
     </div>
   );
 };
+

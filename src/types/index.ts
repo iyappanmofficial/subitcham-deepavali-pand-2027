@@ -296,3 +296,4 @@ export interface DashboardSummary {
   pendingPackageDistributions: number;
   deliveredPackageDistributions: number;
 }
+

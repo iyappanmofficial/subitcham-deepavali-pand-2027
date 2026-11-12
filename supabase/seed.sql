@@ -18,6 +18,7 @@ INSERT INTO business_settings (
     15,
     'Asia/Kolkata',
     '₹',
+    
     'INR',
     '© 2026 Subitcham Deepavali Pand. All Rights Reserved.'
 ) ON CONFLICT (id) DO NOTHING;
@@ -79,3 +80,4 @@ INSERT INTO package_products (id, scheme_cycle_id, product_id, quantity_per_pack
 ('55555555-5555-5555-5555-000000000005', '22222222-2222-2222-2222-222222222222', '44444444-4444-4444-4444-000000000005', 1.00, 'pkt', 'Festive spice combo'),
 ('55555555-5555-5555-5555-000000000006', '22222222-2222-2222-2222-222222222222', '44444444-4444-4444-4444-000000000006', 1.00, 'box', 'Sweets & Savory festive box')
 ON CONFLICT (id) DO NOTHING;
+

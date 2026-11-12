@@ -166,3 +166,4 @@ export const PenaltyManagement: React.FC = () => {
     </div>
   );
 };
+

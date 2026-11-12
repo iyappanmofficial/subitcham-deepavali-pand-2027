@@ -921,3 +921,4 @@ CREATE POLICY "Admin view audit logs" ON audit_logs
 
 CREATE POLICY "Staff and admin append audit logs" ON audit_logs
     FOR INSERT WITH CHECK (get_auth_role() IN ('admin', 'staff'));
+

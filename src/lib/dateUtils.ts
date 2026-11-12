@@ -66,3 +66,4 @@ export function isPaymentPastDeadline(paymentDate: string | Date, deadlineDate: 
 export function getTodayString(): string {
   return format(new Date(), 'yyyy-MM-dd');
 }
+

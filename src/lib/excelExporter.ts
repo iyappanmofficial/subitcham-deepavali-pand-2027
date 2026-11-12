@@ -169,3 +169,4 @@ export async function exportPaymentsToExcel(payments: Payment[], companyName = '
   a.click();
   window.URL.revokeObjectURL(url);
 }
+

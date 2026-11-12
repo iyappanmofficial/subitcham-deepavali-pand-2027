@@ -218,3 +218,4 @@ export const AddCustomerModal: React.FC<AddCustomerModalProps> = ({ onClose, onS
     </div>
   );
 };
+

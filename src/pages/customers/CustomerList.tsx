@@ -428,3 +428,4 @@ const CustomerDetailModal: React.FC<{
     </div>
   );
 };
+
